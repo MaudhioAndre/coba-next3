@@ -1,0 +1,11 @@
+.div{
+    background-color: green;
+    font-size: 30px;
+    transition: 300ms;
+
+    &:hover{
+        background-color: cyan;
+        font-size: 40px;
+        transition: 300ms;
+    }
+}
