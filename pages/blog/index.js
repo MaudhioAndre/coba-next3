@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import styles from "./blog.module.scss";
 
-const blog = (props) =>{
+const Blog = (props) =>{
   const [user, setUser] = useState(props.user || []);
   const [loading, setLoading] = useState(false);
 
@@ -42,7 +42,7 @@ const blog = (props) =>{
   );
 };
 
-export default blog;
+export default Blog;
 
 export async function getServerSideProps(context) {
   try {

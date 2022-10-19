@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Head from "next/head";
 
-export default class satu extends Component {
+export default class Satu extends Component {
   render() {
     return (
       <>
